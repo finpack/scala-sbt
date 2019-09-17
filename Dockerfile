@@ -5,11 +5,11 @@
 #
 
 # Pull base image
-FROM openjdk:8u212
+FROM openjdk:11.0.4
 
 # Env variables
-ENV SCALA_VERSION 2.12.8
-ENV SBT_VERSION 1.2.8
+ENV SCALA_VERSION 2.12.9
+ENV SBT_VERSION 1.3.0
 
 # Install Scala
 ## Piping curl directly in tar
